@@ -8,7 +8,7 @@ if(!(Test-Path -Path C:\temp )){
 
 #receive creds from user and store as variable
 #$username = "you@yourcompany.com"
-$username = read-host -promprt "Please enter your username"
+$username = read-host -prompt "Please enter your username"
 
 #Create a file to store your email password
 if(!(Test-Path -Path C:\temp\securestring.txt )){
